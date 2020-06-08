@@ -1,0 +1,9 @@
+com\gtb\manager\controller\ItemController.class
+com\gtb\manager\controller\SpecificationOptionController.class
+com\gtb\manager\controller\SpecificationController.class
+com\gtb\manager\controller\BrandController.class
+com\gtb\manager\controller\SellerController.class
+com\gtb\manager\controller\TypeTemplateController.class
+com\gtb\manager\controller\ItemCatController.class
+com\gtb\manager\controller\GoodsController.class
+com\gtb\manager\controller\GoodsDescController.class

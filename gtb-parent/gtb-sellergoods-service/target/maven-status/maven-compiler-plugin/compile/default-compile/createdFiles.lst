@@ -1,0 +1,9 @@
+com\gtb\sellergoods\service\impl\SellerServiceImpl.class
+com\gtb\sellergoods\service\impl\TypeTemplateServiceImpl.class
+com\gtb\sellergoods\service\impl\SpecificationOptionServiceImpl.class
+com\gtb\sellergoods\service\impl\SpecificationServiceImpl.class
+com\gtb\sellergoods\service\impl\ItemServiceImpl.class
+com\gtb\sellergoods\service\impl\GoodsServiceImpl.class
+com\gtb\sellergoods\service\impl\BrandServiceImpl.class
+com\gtb\sellergoods\service\impl\ItemCatServiceImpl.class
+com\gtb\sellergoods\service\impl\GoodsDescServiceImpl.class
