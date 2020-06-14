@@ -2,6 +2,7 @@ package com.gtb.shop.controller;
 
 import java.util.List;
 
+import org.springframework.security.crypto.bcrypt.BCryptPasswordEncoder;
 import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
@@ -53,7 +54,10 @@ public class SellerController {
 	 */
 	@RequestMapping("/add")
 	public Result add(@RequestBody TbSeller seller) {
+		BCryptPasswordEncoder passwordEncoder = new BCryptPasswordEncoder();
+		seller.setPassword(passwordEncoder.encode(seller.getPassword()));
 		try {
+
 			sellerService.add(seller);
 			return new Result(true, "增加成功");
 		} catch (Exception e) {
