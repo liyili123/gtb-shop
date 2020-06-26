@@ -27,5 +27,8 @@
 	<dubbo:application name="gtb-shop-web" />
 	<dubbo:registry address="zookeeper://192.168.25.129:2181"/>
 	<dubbo:annotation package="com.gtb.shop.controller" />  	
-
+	<!-- 通过注册中心连接监控中心 -->	
+	<dubbo:monitor protocol="registry"/>
+	<!-- 直接连接监控中心 -->	
+	<!-- <dubbo:monitor address="192.168.25.129:7070"/> -->
 </beans>
